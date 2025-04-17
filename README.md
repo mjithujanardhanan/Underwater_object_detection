@@ -1,14 +1,14 @@
 # Underwater Object Detection and Localization
 
-Real-time underwater object detection and localization system using YOLOv5, optimized for Edge GPUs (Jetson Nano). This project is designed to detect underwater bots and other relevant objects from an ROV’s point of view.
+Real-time underwater object detection and localization system using YOLOv11, optimized for Edge GPUs (Jetson Nano). This project is designed to detect underwater bots and other relevant objects from an ROV’s point of view.
 
 ## 📌 Project Overview
 
-This project focuses on detecting and localizing underwater objects in real-time using a custom-trained YOLOv5 model. The model is fine-tuned on a dataset created from ROV-captured footage in underwater environments and is deployed on Jetson Nano for edge inference.
+This project focuses on detecting and localizing underwater objects in real-time using a custom-trained YOLOv11 model. The model is fine-tuned on a dataset created from ROV-captured footage in underwater environments and is deployed on Jetson Nano for edge inference.
 
 ## 🚀 Features
 
-- ✅ Real-time detection with optimized YOLOv5
+- ✅ Real-time detection with optimized YOLOv11
 - ✅ Custom underwater dataset created and annotated using Roboflow
 - ✅ Model optimized for Jetson Nano
 - ✅ Easy deployment with minimal dependencies
@@ -23,7 +23,7 @@ This project focuses on detecting and localizing underwater objects in real-time
 
 ## 🧠 Model
 
-- Architecture: YOLOv5 (nano/small for Jetson compatibility)
+- Architecture: YOLOv11 (nano/small for Jetson compatibility)
 - Training Framework: PyTorch
 - Optimized with: TensorRT (optional)
 - Input Size: 640x640
@@ -36,7 +36,7 @@ This project focuses on detecting and localizing underwater objects in real-time
 - Jetson Nano (or any other Edge GPU)
 - torch, torchvision
 - OpenCV
-- YOLOv5 repo (https://github.com/ultralytics/yolov5)
+- YOLOv11 repo (https://github.com/ultralytics/yolov5)
 
 ### Installation
 
