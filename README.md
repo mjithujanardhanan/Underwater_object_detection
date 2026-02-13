@@ -10,9 +10,7 @@ This project focuses on detecting and localizing underwater objects in real-time
 
 - ✅ Real-time detection with optimized YOLOv11
 - ✅ Custom underwater dataset created and annotated using Roboflow
-- ✅ Model optimized for Jetson Nano
 - ✅ Easy deployment with minimal dependencies
-- ✅ ROS (optional) integration for underwater bot control and feedback
 
 ## 🐳 Dataset
 
