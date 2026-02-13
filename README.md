@@ -1,10 +1,10 @@
 # Underwater Object Detection and Localization
 
-Real-time underwater object detection and localization system using YOLOv11, optimized for Edge GPUs (Jetson Nano). This project is designed to detect underwater bots and other relevant objects from an ROV’s point of view.
+Real-time underwater object detection and localization system using YOLOv11, optimized for GPUs. This project is designed to detect underwater bots and other relevant objects from an ROV’s point of view.
 
 ## 📌 Project Overview
 
-This project focuses on detecting and localizing underwater objects in real-time using a custom-trained YOLOv11 model. The model is fine-tuned on a dataset created from ROV-captured footage in underwater environments and is deployed on Jetson Nano for edge inference.
+This project focuses on detecting and localizing underwater objects in real-time using a custom-trained YOLOv11 model. The model is fine-tuned on a dataset created from ROV-captured footage in underwater environments.
 
 ## 🚀 Features
 
@@ -33,7 +33,8 @@ This project focuses on detecting and localizing underwater objects in real-time
 ### Requirements
 
 - Python 3.8+
-- Jetson Nano (or any other Edge GPU)
+- Any Nvidia Gpu
+- Intel Realsense d435i depth camera
 - torch, torchvision
 - OpenCV
 - YOLOv11 repo (https://github.com/ultralytics/yolov5)
