@@ -4,3 +4,4 @@ Repository for the underwater bot detection project done by JITHU J as part of M
 
 Aim : The project aims to develop an underwater Robot detection and localization video pipeline which works in performance constrained environment.
 
+![Pipeline Flow](videos/20260521_22_22_05_105.mp4)
