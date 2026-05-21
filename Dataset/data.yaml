@@ -1,0 +1,13 @@
+train: ../tub data.v10i.yolov5pytorch/train/images
+val: ../tub data.v10i.yolov5pytorch/valid/images
+test: ../tub data.v10i.yolov5pytorch/test/images
+
+nc: 4
+names: ['metal', 'plastic bags', 'plastic bottle', 'rock']
+
+roboflow:
+  workspace: parvez-crpbz
+  project: tub-data
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/parvez-crpbz/tub-data/dataset/10
